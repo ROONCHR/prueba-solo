@@ -25,7 +25,7 @@ void Registrar(Registro REG[],int &cant_usu){
 		cout<<"\t\t\t\t\t\t\t\tNOMBRE: ";
 		getline(cin, REG[i].NOMBRE);
 		fflush(stdin);
-		cout<<"\t\t\t\t\t\t\t\tSEXO: ";
+		cout<<"\t\t\t\t\t\t\t\tSEXO cambiado: ";
 		getline(cin, REG[i].SEXO);
 		fflush(stdin);
 		cout<<" \t\t\t\t\t\t\t\tEDAD: ";
