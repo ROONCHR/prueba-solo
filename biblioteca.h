@@ -61,6 +61,8 @@ struct historia{
 //ESTRUCTURAS DE REGISTRO DE DATOS PERSONALES
 struct Registro_usuario{
 	string NOMBRE;
+	string APELLIDO_PAT;
+	string APELLIDO_MAT;
 	string DNI;
 	string CODIGO;
 	string EDAD;
@@ -70,6 +72,8 @@ struct Registro_usuario{
 };
 struct Registro_Administrador{
 	string NOMBRE;
+	string APELLIDO_PAT;
+	string APELLIDO_MAT;
 	string DNI;
 	string CODIGO;
 	string EDAD;

@@ -27,4 +27,5 @@ void Menu_Administrador();
 void Mostrar_usuarios_administradores(Registro_Administrador RE[], Registro_usuario REU[]);
 void Registrar_admin(Registro_Administrador REG[],int &cant_admin);
 void valida(int &entrada);
+//void validar_codigo(T REG[], int i);
 #endif // F
